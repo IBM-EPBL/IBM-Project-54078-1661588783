@@ -1,0 +1,17 @@
+CREATE TABLE User (
+ Rollno INT NOT null,
+Username VARCHAR(100) NOT null,
+Email VARCHAR(30) NOT null,
+Password INT NOT null,
+PRIMARY KEY(Rollno)
+);
+
+
+
+INSERT INTO User VALUES (1,'udhaya','udhaya25@gmail.com',9551877139);
+INSERT INTO User VALUES (2,'rahul','rahul14@gmail.com',8796584937);
+INSERT INTO User VALUES (3,'aswin','aswin45@gmail.com',9888745647);
+INSERT INTO User VALUES (4,'somanath','somanath76@gmail.com',8765785839);
+
+
+select * from user;

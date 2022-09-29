@@ -9,6 +9,7 @@ iii.  python3-ibm_db;
  
  Create "kpretty.py" and type the below code:
  
+ 
  " from prettytable import from_db_cursor
   import ibm_db_dbi as db2
   conn = db2.connect()

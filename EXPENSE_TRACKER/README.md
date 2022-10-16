@@ -8,7 +8,7 @@
   <body>
     <h2><b> PERSONAL EXPENSE TRACKER APPLICATION </b></h2>
     <h2>
-      <b> Id: IBM-Project-54078-1661588783 </b>
+      <b> id: IBM-Project-54078-1661588783 </b>
     </h2>
     <ul>
       <h3>

@@ -4,26 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
-  <style>
-    body {
-      background-color: aliceblue;
-      display: block;
-    }
-    li {
-      list-style-type: none;
-    }
-    .p {
-      display: block;
-      height: 500px;
-      width: 500px;
-    }
-
-    .pic {
-      float: right;
-      height: 550px;
-      width: 550px;
-    }
-  </style>
+ 
   <body>
     <h2><b> PERSONAL EXPENSE TRACKER APPLICATION </b></h2>
     <h2>

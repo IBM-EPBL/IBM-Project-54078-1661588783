@@ -20,7 +20,7 @@
         </li>
       </h3>
     </ul>
-    <div class="p">
+
       <p class="p1">
         With a daily expense manager, you will be able to allocate money to
         different priorities and this will also help you cut down on unnecessary
@@ -28,6 +28,6 @@
         worry at bay. A daily money tracker helps you budget your money so that
         you use it wisely.
       </p>
-    </div>
+   
   </body>
 </html>

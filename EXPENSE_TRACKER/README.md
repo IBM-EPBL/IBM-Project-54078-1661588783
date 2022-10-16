@@ -20,14 +20,10 @@
         </li>
       </h3>
     </ul>
-
-      <p class="p1">
         With a daily expense manager, you will be able to allocate money to
         different priorities and this will also help you cut down on unnecessary
         spending. As a result, you will be able to save and be able to keep
         worry at bay. A daily money tracker helps you budget your money so that
         you use it wisely.
-      </p>
-   
   </body>
 </html>

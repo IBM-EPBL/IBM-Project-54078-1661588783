@@ -1,0 +1,45 @@
+.topnav {
+  background-color: darkblue;
+  /* overflow: hidden; */
+  width: auto;
+  height: 100px;
+  padding: 25px;
+  background-image: url("/IBM.png");
+  /* <img src="{{url_for('static', filename='Hermes.png')}}" align="middle" /> */
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+.p{
+  position: relative;
+  left: 190px;
+  top: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-style: bold;
+}
+a {
+  position: relative;
+  left: 450px;
+  bottom: 25px;
+}
+
+.srch {
+  float: right;
+  border-radius: 25px;
+  height: 40px;
+  width: 200px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  /* text-decoration: underline; */
+  background-color: white;
+}

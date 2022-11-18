@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/register1.css') }}" />
+
+</head>
+
+<body>
+
+    <h3>Give us with some details to let us know more about Yourself <br>
+        So Register Yourself
+    </h3>
+    <div class="container">
+        <!-- define the action to perform the action to submit here -->
+        <form name="fm" onsubmit="check_form()" method="post" action="">
+
+            <p>Choose Credentials and Save it.</p>
+            <input type="text" name="uid" placeholder="username" required>
+            <input type="text" name="passeord" placeholder="password" required>
+            <br><br>
+
+            <label for="fname">Your Name</label> <br>
+            <input type="text" name="fname" id="fname" Placeholder="first" required>
+            <input type="text" name="lname" id="lname" Placeholder="last" required>
+            <br>
+            <br>
+
+            <label for="gender" required >Gender:</label>
+            <select id="gender" name="gender" form="genderlist">
+                <option Placeholder="male">Male</option>
+                <option Placeholder="female">Female</option>
+                <option Placeholder="none">Prefer not to mention</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="date" required>DOB</label>
+            <input type="date" name="dob">
+            <br>
+            <br>
+
+            <label for="saddress" >Address </label> <br>
+            <input type="text" name="saddress" id="saddress" Placeholder="address1" required> <br> <br>
+            <input type="text" name="caddress" id="caddress" Placeholder="address2" required> <br><br>
+            <input type="text" name="city" id="city" Placeholder="city" required>
+            <input type="text" name="Region" id="region" Placeholder="state" required> <br> <br>
+            <input type="text" name="pin" id="pin" Placeholder="Postal/Zip code" required>
+            <input type="text" name="country" id="counrty" Placeholder="Country" required> <br> <br>
+            <br>
+
+            <label for="fmobile">Mobile number: </label>
+            <input type="text" name="mobile" id="fmobile" required>
+            <br> <br>
+
+            <label for="mail">E-mail id: </label>
+            <input type="text" name="mail" id="mail" Placeholder="email-id" required>
+            <br>
+
+            <p required>Select the type of source of income</p>
+
+            <input type="radio" name="course" id="course">
+            <label for="course"> Low</label>
+
+            <input type="radio" name="course" id="course">
+            <label for="course"> Middle </label>
+
+            <input type="radio" name="course" id="course">
+            <label for="course"> Average</label>
+
+            <input type="radio" name="course" id="course">
+            <label for="course">High</label>
+            <br>
+
+            <p>Check and click the one which fits you...</p>
+
+            <input type="checkbox" name="vehicle" id="vehicle">
+            <label for="vehicle"> Weekly wagers </label>
+            <br>
+
+            <input type="checkbox" name="vehicle" id="vehicle">
+            <label for="vehicle"> Monthly wagers </label>
+            <br>
+
+            <input type="checkbox" name="vehicle" id="vehicle">
+            <label for="vehicle"> Businessman </label>
+            <br>
+            <br>
+
+            <label for="accessories" required> Do u have any vehicle?</label>
+            <select name="acesories">
+                <option Placeholder="Yes">Yes</option>
+                <option Placeholder="No"> No</option>
+            </select>
+            <br><br>
+
+
+            <p>Select the feedback of this page...</p>
+            <label for="feedback">choose the category: </label>
+            <select name="fdbk">
+                <option Placeholder="good">Good</option>
+                <option Placeholder="bad">Bad</option>
+            </select>
+            <br>
+            <h4>Do you want to add some notes. Kindly write down here</h4>
+            <textarea name="our_words" cols="28" rows="8"></textarea>
+            <br>  <br>
+
+            <input type="submit" Placeholder="Submit">
+            <input type="reset" Placeholder="Reset">
+            <br>
+
+
+        </form>
+
+    </div>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='JS/validation.js') }}" /> 
+</body>
+
+</html>

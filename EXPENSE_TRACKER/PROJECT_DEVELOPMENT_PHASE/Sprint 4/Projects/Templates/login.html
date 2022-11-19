@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>Login Page</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/login1.css') }}" />
+  <!-- <link rel="stylesheet" href="/login1.css"> -->
+</head>
+
+<body>
+  <div id="navbar">
+    <h1><label class="nav">BUDGET CALCULATOR</label></h1>
+    <h1><label class="nav"> Tracker that track you all way</label></h1>
+  </div>
+  <h3 style="color: blue">
+    Track all your expenses according to your Salary received and plan
+    sincerely to expense them wisely
+  </h3>
+
+  <img src="{{url_for('static', filename='pic/1.jpg')}}" />
+  <!-- <img src="/1.jpg" class="left" alt="one"> -->
+  <div class="cont">
+    <form class="f1">
+      <h2>
+        <label for="username" class="l">Username entered: </label>
+        <input type="text" class="l" value="IBM2022" name="uname" />
+      </h2>
+      <h2>
+        <label for="username" class="l">Passwords entered: </label>
+        <input type="password" class="l" value="Batch03" name="pwd"  />
+      </h2>
+      <a class="rel" href="www.google.com">Forget password</a>
+      <br />
+      <p>
+        <button class="btn l" id="lgn" >
+          <a href="/dashboard">Login</a>
+        </button>
+      </p>
+      <h2 class="l">
+        New to this, create an account
+        <a href="register"> here</a>
+      </h2>
+    </form>
+    <div class="footer">
+      Also Connect Through <br />
+      <a href="#" class="fa fa-facebook"></a> Facebook <br />
+      <script src="{{ url_for('static', filename='js/login1.js') }}"></script>
+
+</html>

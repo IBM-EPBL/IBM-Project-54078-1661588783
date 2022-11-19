@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/index1.css') }}" />
+  <!-- <link rel="stylesheet" type="text/css" href="/index1.css"> -->
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div class="topnav">
+    <img src="{{url_for('static', filename='pic/IBM.png')}}" />
+    <!-- <img src="IBM.png" alt="ibm"> -->
+    <p class="p">Personal Expense Tracker</p>
+    <div class="side">
+      <table>
+        <tr>
+          <th>
+            <a class="active" href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <input type="text" class="tpe" placeholder=" Search " />
+          </th>
+        </tr>
+        <tr>
+          <td>
+            <!-- <button onclick="/login.html">login</button> -->
+            <!-- <button> <a href="{{ url_for('static',filename='templates/login.html')}}" >login</a></button>
+            <button> <a href="{{ url_for('static',filename='templates/register.html')}}">register</a></button> -->
+            <a href="/register">Register</a>
+            <a href="/login">Login</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="left">
+    <h4>What is personal expense tracker?</h4>
+    <p>
+      Also known as expense manager and money manager, an expense tracker is a software or application that helps to
+      keep an accurate record of your money inflow and outflow.
+    </p>
+    <h4>How does expense tracker work?</h4>
+    <p>
+      An expense tracker app that allows financial transactions through debit cards, bank transfers, credit cards, and
+      net banking will help you make payments quickly <br> the invoices. An expense tracker app will also send reminders
+      for payments and match the payments to customer accounts
+    </p>
+    <h4>Do you manage your expenses?</h4>
+    A 6 step introduction to managing your day-to-day expenses
+    <ol>
+      <li> What are expenses? ...</li>
+      <li> Record your expenses daily. ...</li>
+      <li> Review your expenses weekly. ...</li>
+      <li> Consider storing your receipts online. ...</li>
+      <li> Keep expenses separate from other costs. ...</li>
+      <li> Make sure your categories are consistent...</li>
+    </ol>
+    <!-- <img src='/track.png' class="kk" alt="kkk"> -->
+    <img src="{{url_for('static', filename='pic/track.png')}}" class="kk" />
+  </div>
+  <div class="right">
+
+    <h4>How do expense trackers work?</h4>
+    <ol>
+      <li>
+        The goal here is to move from a spreadsheet at best — or, at worst, no tracking at all — to some form of
+        collection and categorization of money spent. Apps can do that. However, the experience varies widely.
+      </li>
+      <br>
+      <li>
+        These are the most popular apps on the iOS and Android platforms, but you'll likely need to test-drive a few
+        before you find one you're comfortable with. While our list focuses on free apps, for the most part, you'll
+        probably have to upgrade at a small cost to get all the features you want.
+      </li>
+      <br>
+      <li>
+
+        The list of features you may want might include:
+
+        Easy transaction download.
+
+        Automatic logging of recurring transactions.
+
+        A forecast of your ending balances at some point in time (cash flow).
+
+        Auto-categorization of transactions, especially taxable items.
+
+        And one real luxury on the wish list: the ability to scan receipts.
+      </li>
+    </ol>
+    <!-- <img src="/girl.jpg" class="kk" alt="kkk"> -->
+    <img src="{{url_for('static', filename='pic/girl.jpg')}}" />
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</html>
